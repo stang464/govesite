@@ -14,6 +14,7 @@
                 <h3>Connect</h3>
               </v-col>
             </v-row>
+            
           </v-card>
         </v-col>
         <v-col cols="4"></v-col>
