@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app-bar flat color="white">
+    <v-app-bar flat color="white" fixed>
       <v-col cols="4">
         <v-img
           max-width="268"
