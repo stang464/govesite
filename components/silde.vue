@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app">
     <v-container fluid>
       <v-row class="bg">
         <v-col cols="6" class="bg-1">
@@ -20,7 +20,7 @@
             <v-col class="float-right">
               <v-btn class="float-right" color="success">ทดลองใช้งาน</v-btn>
             </v-col>
-            <v-col class="">
+            <v-col class="day">
               <h5 class="text1 float-right">
                 * สมัครใช้งานวันนี้ทดลองใช้ฟรี 30วัน
               </h5>
@@ -43,12 +43,20 @@
 <script>
 export default {}
 </script>
+
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+.app {
+  font-family: 'Kanit', sans-serif;
+}
 .bg {
   background-color: #f1f1f1;
 }
 .bg-1 {
   background-color: #e0e0e0;
   border-radius: 0px 84px 84px 0px;
+}
+.day {
+  color: rgb(255, 0, 0);
 }
 </style>
