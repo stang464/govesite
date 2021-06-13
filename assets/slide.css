@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+.app {
+  font-family: 'Kanit', sans-serif;
+}
+.bg {
+  background-color: #f1f1f1;
+}
+.bg-1 {
+  background-color: #e0e0e0;
+  border-radius: 0px 84px 84px 0px;
+}
+.day {
+  color: rgb(255, 0, 0);
+}
+.text1 {
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 40px;
+  line-height: 80px;
+  line-height: 146%;
+  align: Right;
+  vertical-align: Center;
+  letter-spacing: -1.5%;
+  color: #000000;
+}
